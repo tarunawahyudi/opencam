@@ -7,8 +7,10 @@ import MeetingSetup from "@/components/MeetingSetup";
 import MeetingRoom from "@/components/MeetingRoom";
 import {useGetCallById} from "@/hooks/useGetCallById";
 import Loader from "@/components/Loader";
+import {useParams} from "next/navigation";
 
-const Meeting = ({ params: { id } }: { params: { id: string } }) => {
+const Meeting = () => {
+  const { id } = useParams();
   const { user, isLoaded } = useUser();
   const [isSetupComplete, setIsSetupComplete] = useState(false);
   const { call, isCallLoading } = useGetCallById(id);
