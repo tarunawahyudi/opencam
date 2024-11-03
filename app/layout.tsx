@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Opencam",
   description: "Conference video app",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/favicon/favicon.ico'
   }
 };
 
