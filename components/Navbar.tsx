@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <div className="flex-between gap-5">
         <SignedIn>
-          <UserButton afterSignOutUrl="https://opencam.dev" />
+          <UserButton afterSignOutUrl="/sign-in" />
         </SignedIn>
         <MobileNav />
       </div>
