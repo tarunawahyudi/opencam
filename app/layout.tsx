@@ -40,6 +40,7 @@ export default function RootLayout({
           colorInputText: '#fff',
         }
       }}
+      afterSignOutUrl="/sign-in"
     >
       <html lang="en" >
         <body
