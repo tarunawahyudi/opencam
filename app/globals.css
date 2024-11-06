@@ -63,6 +63,10 @@
   color: white;
 }
 
+.cl-userButtonPopoverActionButton:hover {
+  color: #559af8;
+}
+
 .cl-logoBox {
   height: 40px;
 }
